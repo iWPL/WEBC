@@ -1,0 +1,143 @@
+.text-white {
+  color: white !important;
+  fill: white;
+}
+
+.text-darkblue {
+  color: #1D4C72 !important;
+}
+
+.text-darkgrey {
+  color: #525E69 !important;
+  font-weight: 400;
+}
+
+.text-orange {
+  color: #E88B41;
+  font-weight: 500;
+}
+
+.mybanner {
+  background-image: url('./images/bannerbackground.webp');
+  height: clamp(225px, calc(225px + 10vw), 350px);
+  object-fit: cover;
+}
+
+.banner-firstname {
+  font-size: clamp(1rem, 4vw, 3rem);
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+
+.banner-lastname {
+  font-size: clamp(2rem, 8vw, 6rem);
+  text-transform: uppercase;
+  font-family: 'League Spartan', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-style: normal;
+  line-height: clamp(2rem, 8vw, 6rem);
+}
+
+.banner-job {
+  font-family: "DM Sans", sans-serif;
+  font-size: clamp(1rem, 3vw, 2rem);
+  letter-spacing: .1rem;
+}
+
+.unselfie {
+  border-radius: 50%;
+  max-width: 300px;
+}
+
+.imgcontainer {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.upper-image {
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: scale(1.08) translate(15px, 15px);
+}
+
+.lower-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+
+h1 {
+  color: #1D4C72 !important;
+  font-family: "DM Sans", sans-serif;
+}
+
+.bgdark {
+  background-color: #1D4C72;
+  color: white;
+}
+
+.bgdark h3 {
+  color: #A0CCE0 !important;
+}
+
+.bgdark h2 {
+  color: #A0CCE0 !important;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.bgdark .bgdark {
+  background-color: #002344;
+}
+
+
+.thumbnail {
+  width: 200px;
+  height: 200px;
+  object-fit:cover;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
+  align-content: center !important;
+}
+
+.impact {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contactme {
+  background-color: #E88B41;
+  border-radius: 50px;
+  border: 0;
+  font-weight: 600;
+}
+
+.centered {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bgdark a:link {
+  color: white !important;
+  font-weight: 700;
+}
+
+.bgdark a:visited {
+  color: #A0CCE0 !important;
+  font-weight: 400;
+}
+
+.bgdark a:hover {
+  color:#E88B41 !important;
+  font-weight: 700;
+}
+
